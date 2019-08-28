@@ -18,7 +18,7 @@
 ++ 404 ++
 ++ Responsive ++
 
- 
+
 /*-------------Fonts---------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Poppins:400,500,600,700,800,900|Titillium+Web:400,600,700&subset=cyrillic,cyrillic-ext,devanagari,latin-ext,vietnamese');
@@ -855,9 +855,6 @@ nav.nav-inner {
 	padding-right: 10px;
 }
 .footer-contacts {
-	margin-top: 20px;
-	padding-top: 20px;
-	border-top: 1px dotted rgba(255, 255, 255, 0.11);
 }
 .footer-contacts li {
 	float: left;
@@ -4712,8 +4709,8 @@ section.parallax-section .section-title:before {
 	padding-bottom:80px;
 	border-bottom:1px solid #eee;
 	margin-bottom:20px !important;
- 
- 
+
+
 }
 .custom-inner {
 	float: left;
@@ -6443,7 +6440,7 @@ section.parallax-section .section-title:before {
 	.lf-num {
 		left:inherit;
 		right:0;
-	}	
+	}
 }
 @media only screen and (max-width: 768px) {
 	section.parallax-section.parallax-sec-half-left .bg,
