@@ -6307,6 +6307,7 @@ section.parallax-section .section-title:before {
 		width: 100%;
 		left: 0;
 		overflow: hidden;
+		padding-top: 50px;
 	}
 	.footer-inner {
 		padding: 50px 0 20px;
