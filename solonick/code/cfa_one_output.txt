@@ -1,0 +1,31 @@
+Welcome to the Chick-fil-A One calculator! Let's get started..
+What is your current membership level (normal, silver, or red)? silver
+How many points do you have available for rewards? 670
+How many points until you reach red level membership? 430
+How many total points do you have in the current cycle? 1230
+
+******************************************************************
+
+Points currently available for rewards: 670
+
+With 670 points, you can redeem one of the following items for free: 
+Chicken Sandwich = 500 points
+Hash Browns = 150 points
+Burrito = 550 points
+Sm Frosted Beverage = 550 points
+Chicken Biscuit = 350 points
+8ct Nuggets = 500 points
+Lg Frosted Beverage = 650 points
+M Waffle Fry = 200 points
+Egg White Grill = 550 points
+Cookie = 150 points
+M Soda/Iced Tea = 250 points
+Lg Milkshake = 650 points
+M Lemonade = 350 points
+4ct Minis = 500 points
+Spicy Sandwich = 550 points
+Sm IceDream = 150 points
+Sm Milkshake = 550 points
+M Fruit Cup = 450 points
+Deluxe Sandwich = 650 points
+You will be upgraded to the next membership tier in $39.0.
