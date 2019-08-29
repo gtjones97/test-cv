@@ -6754,3 +6754,11 @@ section.parallax-section .section-title:before {
 		background-position: center;
 	}
 }
+
+.resume_container{
+    text-align: center;
+}
+
+.button_holder{
+    display: inline-block;
+}
