@@ -494,7 +494,7 @@ function initSolonick() {
     if ($("#twitts-container").length > 0) {
         var config1 = {
             "profile": {
-                "screenName": 'gtjones97'
+                "screenName": 'indigokeychain'
             },
             "domId": 'twitts-container',
             "maxTweets": 2,
