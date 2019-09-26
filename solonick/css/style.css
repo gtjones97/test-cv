@@ -1385,11 +1385,13 @@ p.interact,
 	-webkit-transform: rotate(90deg);
 	transform: rotate(90deg);
 	white-space:nowrap;
+    background-color: rgba(0, 0, 0, 0.41)
 }
 .hero-decor-let div{
 	position:absolute;
 	top:0;
 	left:0;
+    
 }
 .hero-decor-let span {
 	color: rgba(255, 255, 255, 0.51);
