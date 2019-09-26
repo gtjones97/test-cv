@@ -1,0 +1,277 @@
+html, body{
+     font-size: 100%;
+     background: #fff;
+}
+ body {
+     font-size: 100%;
+     font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+ p{
+     margin:0;
+}
+ ul{
+     margin:0;
+     padding:0;
+}
+ .head-main{
+     text-align:center;
+}
+ .header-top{
+     padding:1px 0px;
+}
+ .navigation {
+     float: left;
+}
+ .head {
+     position: relative;
+}
+ .header {
+     padding: 2em 0px;
+     box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.11);
+}
+ ul.navig {
+     padding: 0;
+     margin-top: 1.7%;
+}
+ ul.navig li {
+     display: inline-block;
+}
+ ul.navig li a {
+     font-size: 1.07em;
+     color: #3d1a1b;
+     text-decoration: none;
+     padding-right: 30px;
+}
+ ul.navig li a:hover{
+     color:#999;
+}
+ @media (max-width: 768px){
+     span.menu:before {
+         content: url(../images/nav-icon.png);
+         cursor: pointer;
+         height:32px;
+    }
+     .header {
+         padding: 10px 0px;
+    }
+     ul.navig {
+         width: 11%;
+         float: right;
+         margin:0;
+    }
+     ul.navig{
+         display:none;
+    }
+     ul.navig li {
+         font-size: 12px;
+         display:inline-block;
+         width: 100%;
+         margin:0;
+    }
+     ul.navig li a {
+         width: 100%;
+         font-weight: 600;
+         display: block;
+         color: #999;
+    }
+     ul.navig li a:hover{
+         color:#fff;
+    }
+     span.menu {
+         display: block;
+         float: right;
+         margin: 0px 0px 0 0;
+    }
+     ul.navig {
+         margin: 0;
+         z-index: 999;
+         position: absolute;
+         width: 96%;
+         text-align: center;
+         top: 143%;
+         left: 2%;
+         background: #3d1a1b;
+    }
+     .navigation {
+         height: 20px;
+         padding: 0px 0px 0em;
+         margin-bottom: 0em;
+    }
+}
+ .footer{
+     padding:2em 0px;
+     box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.11);
+     text-align:center;
+}
+ .footer-text p{
+     font-size:15px;
+     color:#999;
+}
+ .bearday-grid h4{
+     font-size: 18px;
+     margin: 20px 0 0 0;
+     color: #212121;
+}
+ .bearday-grid p {
+     font-size: 16px;
+     font-family: 'IBM Plex Sans Condensed', sans-serif;
+     color: #999;
+     line-height: 1.8em;
+     margin-top: 1.5%;
+}
+ i.glyphicon{
+     margin-right: 10px;
+}
+ ul.article li span{
+     font-size: 16px;
+     font-family: 'IBM Plex Sans Condensed', sans-serif;
+     color: #999;
+}
+ .bearday {
+     padding: 6em 0;
+}
+ ul.article li {
+     display: inline-block;
+     margin-right: 15px;
+}
+ ul.article {
+     margin-top: 10px;
+}
+ bearday--*/
+ .header {
+     padding: 1.7em 0px;
+}
+ .bearday {
+     padding: 5em 0px;
+}
+ @media (max-width:1280px){
+     ul.navig {
+         margin-top: 1.6%;
+    }
+}
+ @media (max-width:1024px){
+     .head-main a img{
+         width:18%;
+    }
+     .bearday {
+         padding: 4em 0px;
+    }
+     .header-top {
+         padding: 1.8em 0px;
+    }
+     ul.navig li a {
+         font-size: 1em;
+         padding-right: 25px;
+    }
+     .footer {
+         padding: 1.8em 0px;
+    }
+     .footer-text p {
+         font-size: 14px;
+    }
+     .bearday-grid h4 {
+         font-size: 17px;
+    }
+     .bearday-grid p {
+         font-size: 13px;
+         margin-top: 1%;
+    }
+}
+ @media (max-width:768px){
+     .bearday {
+         padding: 3em 0px;
+    }
+     .header-top {
+         padding: 1.5em 0px;
+    }
+     .header {
+         padding: 1.5em 0px;
+         position: relative;
+    }
+     ul.navig li a {
+         padding: 10px 0;
+    }
+     .footer {
+         padding: 1.5em 0px;
+    }
+     .footer-text p {
+         font-size: 13px;
+    }
+}
+ @media (max-width:640px){
+     .header-top {
+         padding: 1.3em 0px;
+    }
+     .bearday {
+         padding: 2.5em 0px;
+    }
+     ul.navig {
+         top: 150%;
+    }
+     .head-main a img {
+         width: 19%;
+    }
+}
+ @media (max-width:480px){
+     ul.navig {
+         top: 160%;
+    }
+     span.menu {
+         margin: -4px 0px 0 0;
+    }
+     ul.navig {
+         top: 144%;
+    }
+     .header {
+         padding: 1.1em 0px;
+    }
+     .footer {
+         padding: 1.3em 0px;
+    }
+     .head-main a img {
+         width: 21%;
+    }
+     .header-top {
+         padding: 1.3em 0px 1.1em 0;
+    }
+}
+ @media (max-width:320px){
+     .head-main a img {
+         width: 35%;
+    }
+     .header-top {
+         padding: 1em 0px 11px 0;
+    }
+     ul.navig li a {
+         padding: 8px 0;
+    }
+     .head-main a img {
+         width: 30%;
+    }
+     ul.navig {
+         width: 100%;
+         left: 0%;
+         top: 152%;
+    }
+     .bearday-grid h4 {
+         font-size: 14px;
+         line-height: 1.5em;
+    }
+     ul.article li span {
+         font-size: 13px;
+    }
+     i.glyphicon {
+         margin-right: 5px;
+    }
+     ul.article li {
+         margin-right: 5px;
+    }
+     ul.article {
+         margin-top: 5px;
+    }
+     .bearday-grid p {
+         margin-top: 4%;
+    }
+}
+ media-quaries-end-here--*/
+ 
