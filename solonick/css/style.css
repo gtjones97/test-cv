@@ -266,7 +266,7 @@ blockquote p {
 	width: 100%;
 	height: 100%;
 	background: #000;
-	opacity: 0.4;
+	opacity: 0.05;
 	z-index: 3;
 }
 /* ------header------------------------------------------------------------ */
