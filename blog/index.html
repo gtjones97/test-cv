@@ -3,7 +3,7 @@
     <head>
         <!--=============== basic  ===============-->
         <meta charset="UTF-8">
-        <title>What's on my raspberry pi? - Gabriel Jones</title>
+        <title>Solonick - Creative Responsive Personal Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="robots" content="index, follow"/>
         <meta name="keywords" content=""/>
@@ -14,7 +14,7 @@
         <link type="text/css" rel="stylesheet" href="../css/style.css">
         <link type="text/css" rel="stylesheet" href="../css/color.css">
         <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="../images/favicon.ico">
+        <link rel="shortcut icon" href="../../images/favicon.ico">
     </head>
     <body>
         <!--loader-->
@@ -31,13 +31,13 @@
                 </a>
                 <div class="header-social">
                     <ul >
-                        <li><a href="/blog/" target="_blank"><i class="fas fa-comment-alt"></i></a></li>
+                        <li><a href="/blog/"><i class="fas fa-comment-alt"></i></a></li>
                         <li><a href="https://www.twitter.com/indigokeychain" target="_blank"><i class="fab fa-twitter"></i></a></li>
                     </ul>
                 </div>
                 <div class="show-share showshare">
-                    <a href="../contacts.html" style="display: block;"><i class="fal fa-envelope" style="color: white;"></i></a>
-                    <span>Contact Me</span>
+                    <i class="fal fa-retweet"></i>
+                    <span>Share This</span>
                 </div>
             </header>
             <!--  header end -->
@@ -97,7 +97,7 @@
                             </li>
                             <li><a href="services.html">Services</a></li>
                             <li><a href="contacts.html">Contacts</a></li>
-                            <li><a href="blog.html" class="act-link">Blog</a></li>
+                            <li><a href="blog.html" >Blog</a></li>
                             <li>
                                 <a href="#">Pages</a>
                                 <!--level 2 -->
@@ -120,6 +120,21 @@
             <div id="wrapper" class="single-page-wrap">
                 <!-- Content-->
                 <div class="content">
+                    <!-- section-->
+                    <section class="parallax-section dark-bg sec-half parallax-sec-half-right" data-scrollax-parent="true">
+                        <div class="bg par-elem"  data-bg="../images/blog_photo.png" data-scrollax="properties: { translateY: '30%' }"></div>
+                        <div class="overlay"></div>
+                        <div class="pattern-bg"></div>
+                        <div class="container">
+                            <div class="section-title">
+                                <h2>My  <span> Latest </span> Updates </h2>
+                                <p> Stories, thoughts, experiences. </p>
+                                <div class="horizonral-subtitle"><span>Journal</span></div>
+                            </div>
+                        <a href="#sec1" class="custom-scroll-link hero-start-link"><span>Let's Start</span> <i class="fal fa-long-arrow-down"></i></a>
+                        </div>
+                    </section>
+                    <!-- section end-->
                     <div class="single-page-decor"></div>
                     <!-- single-page-fixed-row-->
                     <div class="single-page-fixed-row blog-single-page-fixed-row">
@@ -129,104 +144,104 @@
                             </div>
                             <span>Scroll Down</span>
                         </div>
+                                                <a href="../index.html" class="single-page-fixed-row-link"><i class="fal fa-arrow-left"></i> <span>Back to home</span></a>
                     </div>
                     <!-- single-page-fixed-row end-->
-                    <!-- section end-->  
                     <!-- section --> 
                     <section data-scrollax-parent="true" id="sec1">
-                        <div class="section-subtitle left-pos"  data-scrollax="properties: { translateY: '-250px' }" ><span>//</span>Raspberry pi</div>
+                        <div class="section-subtitle left-pos"  data-scrollax="properties: { translateY: '-250px' }" ><span>//</span>Journal</div>
                         <div class="container">
                             <!-- blog-container  -->
                             <div class="fl-wrap post-container">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-8">
                                         <!-- post -->
                                         <div class="post fl-wrap fw-post">
-                                            <h2><a><span>What's on my raspberry pi?</span></a></h2>
-                                            <div class="parallax-header"> <a href="#">30 aug 2019</a><span>Category : </span><a>HOBBIES</a> <a>GADGETS</a> </div>
-                                            <!-- blog media -->
-                                            <div class="blog-media fl-wrap nomar-bottom">
-                                                <div class="single-slider-wrap slider-carousel-wrap ">
-                                                    <div class="single-slider cur_carousel-slider-container fl-wrap"  >
-                                                        <div class="slick-slide-item"><img src="../images/folio/1.jpg" alt=""></div>
-                                                        <div class="slick-slide-item"><img src="../images/folio/1.jpg" alt=""></div>
-                                                        <div class="slick-slide-item"><img src="../images/folio/1.jpg" alt=""></div>
-                                                    </div>
-                                                    <div class="sp-cont   sp-cont-prev"><i class="fal fa-long-arrow-left"></i></div>
-                                                    <div class="sp-cont   sp-cont-next"><i class="fal fa-long-arrow-right"></i></div>
-                                                </div>
+                                            <h2><a href="blog-single.html"><span>Making a difference at MGRL </span></a></h2>
+                                            <div class="parallax-header"> <a href="#">27 Sep 2019</a><span>Category : </span><a>Career</a></div>
+                                            <div class="blog-media fl-wrap">
+                                                <img src="../images/washington_1.jpeg" alt="">
                                             </div>
-                                            <!-- blog media end -->
-                                            <div class="blog-text fl-wrap" style="text-align: center;">
+                                            <div class="blog-text fl-wrap">
                                                 <div class="clearfix"></div>
-                                                <h3><a href="https://www.raspberrypi.org/" target="_blank">The Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and mouse. It is a capable little device that enables people of all ages to explore computing, and to learn how to program in languages like Scratch and Python.</a></h3>
-                                                <p>The usefullness does not stop at coding, however. It's a nifty device to have for a multitude of reasons. Wherever you might need a computer (albeit a modest one), the raspberry pi is a perfect little device that has all the necessary components in a regular computer. I originally purchased a Raspberry Pi (model 4) to keep a music server running on my network at home, but quickly realized the world of opportunities this cheap little computer opens up. These are the top softwares that I think are necessary for any hobbyist to keep on their devices as well.
+                                                <h3><a href="/blog/mgrl.html" >I consider working with the Middle GA Regional Library System to be my first real step toward a career in the IT industry.</a></h3>
+                                                <p>
+                                                    There is so much going on in my day-to-day that it's necessary to have a place for me to jot down the tasks I complete. I continually update this post with new projects I am working on for the library. This process helps me refine and organize my ideas in a meaningful way so that my brain can focus on the important stuff.  
                                                 </p>
-                                                <div class="mar-top"></div>
-                                                <h2>Raspotify - A Spotify Music Server</h2>
-                                                <p>This program was the reason I bought my device. It serves a small purpose, and you would never know it was there, but it makes my life marginally easier.</p>
-                                                <p>With Raspotify running on my device, I always have an option to use my Raspberry Pi as an audio output for Spotify, wherever I am. It's currently hooked up to my surround system in my living room (which has no bluetooth or internet capabilities).
-                                                </p>
-                                                <a  href="https://github.com/dtcooper/raspotify" style="float: left;">[github]</a><br>
-                                                <div class="mar-top"></div>
-                                                <h2>Pi-Hole Network-Wide Ad Blocking</h2>
-                                                <p>Pi-Hole runs on a raspberry pi device as an interface between a modem and router, so that you can blacklist common websites used by advertisers for an ad-free experience on an entire network.</p>
-                                                <p>You can also view special network statistics about how many ads have been blocked--the numbers are staggering!
-                                                </p>
-                                                <a  href="https://github.com/pi-hole/pi-hole" style="float: left;">[github]</a><br>
-                                                                                                <div class="mar-top"></div>
-                                                <h2>Minecraft Server</h2>
-                                                <p>I sometimes play Minecraft but felt it was necessary to run my own server on my own terms so I can invite friends and family as well! I don't use it often, but nonetheless it was a fun project to complete.</p>
-                                                <a  href="https://github.com/NukkitX/Nukkit" style="float: left;">[github]</a><br>
-                                                <div class="mar-top"></div>
-                                                <div class="mar-top"></div>
-                                                <h3 style="padding-bottom: 100px;">In conclusion, I believe every tech hobbyist should invest in a Raspberry Pi. It's very cheap (less than $50), and can entertain a curious mind for days on end. There are projects out there for every person, and may inspire one to create a project of their own.Thanks for reading!</h3>
-                                            
-                                                                            
+                                                <a href="blog-single.html" class="btn float-btn color-btn flat-btn">Read more </a>
                                             </div>
-                                            
-                                            
                                         </div>
                                         <!-- post end-->
-                                
+                                        <!-- post -->
+                                        <div class="post fl-wrap fw-post">
+                                            <h2><a href="raspberry-pi.html"><span>WHAT'S ON MY RASPBERRY PI?</span></a></h2>
+                                            <div class="parallax-header"> <a>30 aug 2019</a><span>Category : </span><a>Hobbies</a> <a>Tech</a> </div>
+                                            <!-- blog media -->
+                                            <div class="blog-media fl-wrap">
+                                                <img src="../images/raspberry_pi.png" alt="">
+                                            </div>
+                                            <!-- blog media end -->
+                                            <div class="blog-text fl-wrap">
+                                                <div class="clearfix"></div>
+                                                <h3><a>The Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and mouse. It is a capable little device that enables people of all ages to explore computing, and to learn how to program in languages like Scratch and Python.
+</a></h3>
+                                                <p>
+                                                    The usefullness does not stop at coding, however. It's a nifty device to have for a multitude of reasons. 
+                                                </p>
+                                                <a href="raspberry-pi.html" class="btn float-btn color-btn flat-btn">Read more </a>
+                                            </div>
                                         </div>
-                                    
-                                        <!--comments end -->
+                                        <!-- post end-->                                      
                                     </div>
                                     <!-- blog-sidebar  -->
-                                    <div class="col-md-12">
+                                    <div class="col-md-4">
                                         <div class="blog-sidebar fl-wrap fixed-bar">
                                             <!-- widget-wrap -->
                                             <div class="widget-wrap fl-wrap">
-                                                <h4 class="widget-title">About Author</h4>
+                                                <h4 class="widget-title"><span>01.</span> About Author</h4>
                                                 <div class="widget-container fl-wrap">
                                                     <div class="about-widget fl-wrap">
-                                                        <img src="images/avatar/7.jpg" alt="">
-                                                        <h5><a href="#">Gabriel Jones</a></h5>
+                                                        <img src="../images/headshot.png" alt="">
+                                                        <h5><a>Gabriel Jones</a></h5>
                                                         <div class="clearfix"></div>
-                                                        <p>A junior IT professional who is constantly looking for the next problem to solve. I'm currently in a technician position serving the Middle Georgia Regional Library System. When I'm not at work I enjoy travelling, music, and spending time with loved ones.</p>
+                                                        <p>A junior IT professional who is constantly looking for the next problem to solve. I am currently in a technician position serving the Middle Georgia Regional Library System. When I'm not at work I enjoy travelling, music, and spending time with loved ones.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- widget-wrap end  -->                                                                                                                                       
+                                            <!-- widget-wrap end  -->   
+                                            <!-- widget-wrap -->
+                                            <div class="widget-wrap fl-wrap">
+                                                <h4 class="widget-title"><span>02.</span> Last Posts</h4>
+                                                <div class="widget-container fl-wrap">
+                                                    <div class="widget-posts fl-wrap">
+                                                        <ul>
+                                                            <li class="clearfix">
+                                                                <a href="#"  class="widget-posts-img"><img src="../images/washington_1.jpeg" class="respimg" alt=""></a>
+                                                                <div class="widget-posts-descr">
+                                                                    <a href="#" title="">Making a difference at mgrl</a>
+                                                                    <span class="widget-posts-date"> 27 Sep 2019 </span> 
+                                                                </div>
+                                                            </li>
+                                                            <li class="clearfix">
+                                                                <a href="#"  class="widget-posts-img"><img src="../images/raspberry_pi.png" class="respimg" alt=""></a>
+                                                                <div class="widget-posts-descr">
+                                                                    <a href="raspberry-pi.html" title=""> What's on my raspberry pi?</a>
+                                                                    <span class="widget-posts-date"> 30 Aug 2019 </span> 
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- widget-wrap end  -->                                                                                                                                                                                                       
                                         </div>
                                     </div>
                                     <!-- blog-sidebar end -->
                                     <div class="limit-box fl-wrap"></div>
-                                </div>
-                                <!-- content-nav -->
-                                <div class="content-nav">
-                                    <ul>
-                                    </ul>
-                                </div>
-                                <!-- content-nav end-->  
-                            
-                            <div id="resume_container"> <div id=button_holder><a href="../" class="btn float-btn flat-btn color-btn mar-top" style="margin: 0 auto; float: none; font-size: 15px;">back to home</a>
-                                </div>
-                                </div>
+                                </div>    
                             </div>
                             <!-- blog-container end    -->
-                  
+                        </div>
                         <div class="bg-parallax-module" data-position-top="50"  data-position-left="20" data-scrollax="properties: { translateY: '-250px' }"></div>
                         <div class="bg-parallax-module" data-position-top="40"  data-position-left="70" data-scrollax="properties: { translateY: '150px' }"></div>
                         <div class="bg-parallax-module" data-position-top="80"  data-position-left="80" data-scrollax="properties: { translateY: '350px' }"></div>
@@ -236,64 +251,49 @@
                     <!-- section end-->              
                 </div>
                 <!-- Content end -->
-                <!-- footer-->
+              <!-- footer-->
                 <div class="height-emulator fl-wrap"></div>
-                <footer class="main-footer fixed-footer">
-                    <!--footer-inner--> 
+                <footer class="main-footer fixed-footer" style="padding-top: 80px;">
+                    <!--footer-inner-->
                     <div class="footer-inner fl-wrap">
                         <div class="container">
                             <div class="partcile-dec" data-parcount="90"></div>
-                            <div class="row">
+                            <div class="row" style="min-height: 300px;">
                                 <div class="col-md-2">
                                     <div class="footer-title fl-wrap">
-                                        <span>Solonick</span>
+                                        <span>G. Jones</span>
                                     </div>
                                 </div>
                                 <div class="col-md-5">
-                                    <div class="footer-header fl-wrap"><span>01.</span>Tweets</div>
+                                    <div class="footer-header fl-wrap"><span>01.</span>Latest Tweets</div>
                                     <div class="footer-box fl-wrap">
                                         <div class="twitter-swiper-container fl-wrap" id="twitts-container"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-5">
-                                    <div class="footer-header fl-wrap"><span>02.</span> Subscribe / Contacts</div>
-                                    <!-- footer-box--> 
+                                    <div class="footer-header fl-wrap"><span>02.</span>Contacts</div>
+                                    <!-- footer-box-->
                                     <div class="footer-box fl-wrap">
-                                        <p>Want to be notified when we launch a new template or an udpate. Just sign up and we'll send you a notification by email.</p>
-                                        <div class="subcribe-form fl-wrap">
-                                            <form id="subscribe" class="fl-wrap">
-                                                <input class="enteremail" name="email" id="subscribe-email" placeholder="email" spellcheck="false" type="text">
-                                                <button type="submit" id="subscribe-button" class="subscribe-button"><i class="fal fa-paper-plane"></i> Send </button>
-                                                <label for="subscribe-email" class="subscribe-message"></label>
-                                            </form>
-                                        </div>
-                                        <!-- footer-contacts-->                    
+
+                                        <!-- footer-contacts-->
                                         <div class="footer-contacts fl-wrap">
                                             <ul>
-                                                <li><i class="fal fa-phone"></i><span>Phone :</span><a href="#">+489756412322</a></li>
-                                                <li><i class="fal fa-envelope"></i><span>Email :</span><a href="#">yourmail@domain.com</a></li>
-                                                <li><i class="fal fa-map-marker"></i><span>Address</span><a href="#">USA 27TH Brooklyn NY</a></li>
+                                                <li><i class="fal fa-phone"></i><span>Phone :</span><a>(478)258-2896</a></li>
+                                                <li><i class="fal fa-envelope"></i><span>Email :</span><a href="mailto:gabriel897@me.com">gabriel897@me.com</a></li>
+                                                <li><i class="fal fa-map-marker"></i><span>Address</span><a>Macon, GA 31210</a></li>
                                             </ul>
                                         </div>
-                                        <!-- footer end -->                                        
-                                        <!-- footer-socilal -->            
-                                        <div class="footer-socilal fl-wrap">
-                                            <ul >
-                                                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="https://www.twitter.com/indigokeychain" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- footer-socilal end -->       
+                                        <!-- footer end -->
+                                        <!-- footer-socilal -->
+                                        <!-- footer-socilal end -->
                                     </div>
-                                    <!-- footer-box end--> 
+                                    <!-- footer-box end-->
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--footer-inne endr--> 
-                    <!--subfooter--> 
+                    <!--footer-inne endr-->
+                    <!--subfooter-->
                     <div class="subfooter fl-wrap">
                         <div class="container">
                             <!-- policy-box-->
@@ -304,20 +304,20 @@
                             <a href="#" class="to-top color-bg"><i class="fal fa-angle-up"></i><span></span></a>
                         </div>
                     </div>
-                    <!--subfooter end--> 
+                    <!--subfooter end-->
                 </footer>
-                <!-- footer end-->    
+                <!-- footer end-->
             </div>
             <!--   content end -->
-            <!-- share-wrapper -->                       
+            <!-- share-wrapper -->
             <div class="share-wrapper isShare">
-                <div class="share-title"><span>Share</span></div>
+                <div class="share-title"><span>Contact</span></div>
                 <div class="close-share soa"><span>Close</span><i class="fal fa-times"></i></div>
                 <div class="share-inner soa">
                     <div class="share-container"></div>
                 </div>
             </div>
-            <!-- share-wrapper end -->	
+            <!-- share-wrapper end -->
         </div>
         <!-- Main end -->
         <!--=============== scripts  ===============-->
