@@ -4,17 +4,29 @@
 <head>
     <title>Login</title>
     <link href="/vault/index_styles.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 
 <body>
  <form class="login-form">
-  <input type="email" class="login-username" autofocus="true" required="true" placeholder="Email" />
-  <input type="password" class="login-password" required="true" placeholder="Password" />
-  <input type="submit" name="Login" value="Login" class="login-submit" />
+  <input type="password" class="login-password" required="true" placeholder="password" />
+  <input type="submit" name="Login" value="Login" class="login-submit" onclick="javascript:login(this.form)" />
 </form>
 <div class="underlay-photo"></div>
 <div class="underlay-black"></div> 
 </body>
 
+    
 
+<script type="text/javascript">
+function login() {
+var password = 'foliage';
+if (this.document.login.pass.value == password) {
+  top.location.href="links.html";
+}
+else {
+  window.alert("Incorrect password, please try again.");
+  }
+}
+</script>
 </html>
