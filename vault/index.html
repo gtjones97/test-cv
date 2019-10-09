@@ -9,8 +9,7 @@
 
 <body>
     <form class="login-form" action="" method="get">
-        <input type="password" id="user_input" class="login-password" required="true" placeholder="password" name="pass" />
-        <input name="Login" type=button value="Login" class="login-submit" onclick="login(this.form)" />
+        <input name="Login" type=button value="Enter" class="login-submit" onclick="login()" />
     </form>
     <div class="underlay-photo"></div>
     <div class="underlay-black"></div>
@@ -18,14 +17,16 @@
 
 
 <script>
-    function login(form) {
-        var password = 'foliage';
-        var x = document.getElementById("numb").value;
-        if (x.value == password) {
-            window.location.href = "http://www.gtjones.net/vault/jenna/";
-        } else {
-            window.alert("Incorrect password, please try again.");
-        }
+    function login() {
+var password = prompt("Password Please");
+//Change to your own Password
+if(password = 'foliage'){
+window.location.href = "https://www.gtjones.net/vault/jenna";
+}else{
+alert('Denied');
+}
+}
+run();
     }
 </script>
 
