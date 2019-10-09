@@ -5,29 +5,16 @@
     <title>Login</title>
     <link href="/vault/index_styles.css" type="text/css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="index_script.js"></script>
 </head>
 
 <body>
-    <div class="login-form" action="" method="get">
-        <input name="Login" type=button value="Enter" class="login-submit" onclick="login()" />
-    </div>
+    <form id="form_id" class="login-form" name="my_form" method="post">
+        <input type="password" name="password" id="password" class="login-password" required="true" placeholder="password" />
+        <input type=button id="submit" value="Login" class="login-submit" onclick="validate()" />
+    </form>
     <div class="underlay-photo"></div>
     <div class="underlay-black"></div>
 </body>
-
-
-<script>
-    function login() {
-var password = prompt("Password Please");
-//Change to your own Password
-if(password = 'foliage'){
-window.location.href = "https://www.gtjones.net/vault/jenna";
-}else{
-alert('Denied');
-}
-}
-run();
-    }
-</script>
 
 </html>
