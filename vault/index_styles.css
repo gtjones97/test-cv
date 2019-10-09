@@ -38,10 +38,11 @@ input {
   //background: #222;
   //box-shadow: 0 0 1rem rgba(0,0,0,0.3);
   min-height: 10rem;
-  margin: 0 10rem;
+  margin: 0 auto;
   max-width: 50%;
   padding: .5rem;
     color: white;
+    
 }
 .login-text {
   //background: hsl(40,30,60);
