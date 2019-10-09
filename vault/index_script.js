@@ -4,7 +4,7 @@ function validate(){
 var password = document.getElementById("password").value;
 if ( password == "foliage"){
 alert ("Login successful.");
-window.location = "/vault/jenna/"; // Redirecting to other page.
+window.location.href = "https://www.gtjones.net/vault/jenna/"; // Redirecting to other page.
 return false;
 }
 else{
