@@ -64,6 +64,7 @@ input {
   padding: .5rem;
   transition: 250ms background ease-in;
   width: calc(100% - 3rem);
+  text-align: center;
   &:focus {
     background: white;
     color: black;
