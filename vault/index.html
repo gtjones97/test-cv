@@ -8,26 +8,31 @@
 </head>
 
 <body>
- <form class="login-form" action="" method="get">
-  <input type="password" id="user_input" class="login-password" required="true" placeholder="password" name="pass" />
-  <input name="Login" type=button value="Login" class="login-submit" onclick="login(this.form)" />
-</form>
-<div class="underlay-photo"></div>
-<div class="underlay-black"></div> 
+    <form class="login-form" action="" method="get">
+        <input type="password" id="user_input" class="login-password" required="true" placeholder="password" name="pass" />
+        <input name="Login" type=button value="Login" class="login-submit" onclick="login(this.form)" />
+    </form>
+    <div class="underlay-photo"></div>
+    <div class="underlay-black"></div>
 </body>
 
-    
+
 
 <script>
-function login (form) {
-var password = 'foliage';
-var x = document.getElementById("numb").value;
-if (x.value == password) {
-  window.location.href = "http://www.gtjones.net/vault/jenna/";
-}
-else {
-  window.alert("Incorrect password, please try again.");
-  }
-}
+    if (window.location.href = "https://www.gtjones.net/vault/?pass=foliage") {
+        window.location.href = "http://www.gtjones.net/vault/jenna/";
+    }
 </script>
+<script>
+    function login(form) {
+        var password = 'foliage';
+        var x = document.getElementById("numb").value;
+        if (x.value == password) {
+            window.location.href = "http://www.gtjones.net/vault/jenna/";
+        } else {
+            window.alert("Incorrect password, please try again.");
+        }
+    }
+</script>
+
 </html>
