@@ -10,7 +10,7 @@
 <body>
  <form class="login-form">
   <input type="password" class="login-password" required="true" placeholder="password" name="pass" />
-  <input type="submit" name="Login" value="Login" class="login-submit" onclick="javascript:login(this.form)" />
+  <input type="submit" name="Login" value="Login" class="login-submit" onclick="login()" />
 </form>
 <div class="underlay-photo"></div>
 <div class="underlay-black"></div> 
@@ -23,7 +23,7 @@ function login() {
 var password = 'foliage';
 var x = document.getElementById("pass");
 if (x.value == password) {
-  top.location.href="links.html";
+  window.location.href = "http://www.gtjones.net/vault/jenna/";
 }
 else {
   window.alert("Incorrect password, please try again.");
