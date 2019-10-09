@@ -9,7 +9,7 @@
 
 <body>
  <form class="login-form">
-  <input type="password" class="login-password" required="true" placeholder="password" name="pass" />
+  <input type="password" id="user_input" class="login-password" required="true" placeholder="password" name="pass" />
   <input type="submit" name="Login" value="Login" class="login-submit" onclick="login()" />
 </form>
 <div class="underlay-photo"></div>
@@ -21,7 +21,7 @@
 <script type="text/javascript">
 function login() {
 var password = 'foliage';
-var x = document.getElementById("pass");
+var x = document.getElementById("numb").value;
 if (x.value == password) {
   window.location.href = "http://www.gtjones.net/vault/jenna/";
 }
