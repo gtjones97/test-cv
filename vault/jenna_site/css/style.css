@@ -59,7 +59,7 @@ body {
 	text-align: left;
 }
 .pin:after {
-	content: "Jones : ";
+	content: "Howard : ";
 	position: absolute;
 	left: -100%;
 	color: rgba(255, 255, 255, 0.51);
