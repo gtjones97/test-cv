@@ -1,24 +1,4 @@
 @charset "utf-8";
-
-/*======================================
- [ -Main Stylesheet-
-  Theme: Solonick
-  Version: 1.0
-  Last change: 10/04/2018 ]
-++ Fonts ++
-++ General Style ++
-++ Loader++
-++ Header ++
-++ Navigation ++
-++ Footer ++
-++ Section ++
-++ Portfolio ++
-++ Contacts ++
-++ Blog ++
-++ 404 ++
-++ Responsive ++
-
- 
 /*-------------Fonts---------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Poppins:400,500,600,700,800,900|Titillium+Web:400,600,700&subset=cyrillic,cyrillic-ext,devanagari,latin-ext,vietnamese');
@@ -79,7 +59,7 @@ body {
 	text-align: left;
 }
 .pin:after {
-	content: "Solonick : ";
+	content: "Jones : ";
 	position: absolute;
 	left: -100%;
 	color: rgba(255, 255, 255, 0.51);
@@ -266,7 +246,7 @@ blockquote p {
 	width: 100%;
 	height: 100%;
 	background: #000;
-	opacity: 0.4;
+	opacity: 0.05;
 	z-index: 3;
 }
 /* ------header------------------------------------------------------------ */
@@ -726,7 +706,7 @@ nav.nav-inner {
 }
 .footer-inner {
 	z-index: 3;
-	padding: 110px 0 70px;
+	padding: 110px 0 150px;
 }
 .partcile-dec {
 	position: absolute;
@@ -855,9 +835,6 @@ nav.nav-inner {
 	padding-right: 10px;
 }
 .footer-contacts {
-	margin-top: 20px;
-	padding-top: 20px;
-	border-top: 1px dotted rgba(255, 255, 255, 0.11);
 }
 .footer-contacts li {
 	float: left;
@@ -2008,7 +1985,6 @@ section.parallax-section .section-title:before {
 .line-item {
 	float: left;
 	width: 20%;
-	height: 100%;
 	box-sizing: border-box;
 	border-right: 1px solid rgba(153, 153, 153, 0.1);
 	height: 100%;
@@ -4712,8 +4688,8 @@ section.parallax-section .section-title:before {
 	padding-bottom:80px;
 	border-bottom:1px solid #eee;
 	margin-bottom:20px !important;
- 
- 
+
+
 }
 .custom-inner {
 	float: left;
@@ -6310,6 +6286,7 @@ section.parallax-section .section-title:before {
 		width: 100%;
 		left: 0;
 		overflow: hidden;
+		padding-top: 50px;
 	}
 	.footer-inner {
 		padding: 50px 0 20px;
@@ -6443,7 +6420,7 @@ section.parallax-section .section-title:before {
 	.lf-num {
 		left:inherit;
 		right:0;
-	}	
+	}
 }
 @media only screen and (max-width: 768px) {
 	section.parallax-section.parallax-sec-half-left .bg,
@@ -6515,6 +6492,8 @@ section.parallax-section .section-title:before {
 	.share-inner {
 		padding: 0 50px;
 	}
+
+    
 	.hero-start-link {
 		position: absolute;
 		z-index: 9;
@@ -6599,7 +6578,7 @@ section.parallax-section .section-title:before {
 		margin-top:0 !important;
 	}
 	section {
-		padding:70px 0;
+		padding:7f0px 0;
 	}
 	.fet_pr-carousel-counter {
 		bottom:25px;
@@ -6755,4 +6734,16 @@ section.parallax-section .section-title:before {
 		-webkit-background-size: cover;
 		background-position: center;
 	}
+}
+
+.resume_container{
+    text-align: center;
+}
+
+.button_holder{
+    display: inline-block;
+}
+
+.fal fa-envelope{
+    color: white;
 }
