@@ -494,7 +494,7 @@ function initSolonick() {
     if ($("#twitts-container").length > 0) {
         var config1 = {
             "profile": {
-                "screenName": 'envatomarket'
+                "screenName": 'indigokeychain'
             },
             "domId": 'twitts-container',
             "maxTweets": 2,
@@ -602,7 +602,7 @@ function initSolonick() {
     });
     var shrcn = $(".share-wrapper"),
         ssb = $(".showshare");
-    function showShare() {
+    /* function showShare() {
         hideMenu();
         shrcn.fadeIn(1).removeClass("isShare").addClass("invis-share");
         $(".share-title span").shuffleLetters({});
@@ -616,7 +616,7 @@ function initSolonick() {
             });
 
         }, 300);
-    }
+    } */
     function hideShare() {
         shrcn.fadeOut(400).addClass("isShare").removeClass("invis-share");
         $(".soa").removeClass("soavis");
