@@ -707,6 +707,7 @@ nav.nav-inner {
 .footer-inner {
 	z-index: 3;
 	padding: 110px 0 70px;
+    padding-bottom: 15rem;
 }
 .partcile-dec {
 	position: absolute;
