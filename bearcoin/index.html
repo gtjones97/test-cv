@@ -101,7 +101,7 @@
                                         <div class="parallax-header"><span>Category : </span><a>Java</a></div>
 
                                         <div class="clearfix"></div>
-                                        <h4>The goal of this project was to use PHP server-side code to allow users to create accounts and participate in a risk-free cryptocurrency trading platform. The real-time market data would be aggregated from the <a href="https://coinmarketcap.com/api/documentation/v1/" target="_blank">CoinMarketCap API</a>. User account information, balances, and preferences are saved in a MySQL database. Because of the limitations of my current website (no PHP), I cannot provide a demo. Howver, I can provide screenshots and code. </h4>
+                                        <h4>The goal of this project was to use PHP server-side code to allow users to create accounts and participate in a risk-free cryptocurrency trading platform. The real-time market data would be aggregated from the <a href="https://coinmarketcap.com/api/documentation/v1/" target="_blank">CoinMarketCap API</a>. User account information, balances, and preferences are saved in a MySQL database. Because of the limitations of my current PaaS (no PHP), I cannot provide a demo. However, I can provide screenshots and code. </h4>
                                     </div>
                                     <div class="pr-list fl-wrap">
                                         <div class="row">
@@ -114,9 +114,28 @@
                                             </div>
                                         </div>
                                     </div>
-
-                                    <a href="code/cfa_one.java" target="_blank" class="btn float-btn flat-btn color-btn mar-top">View Code</a>
-                                    <a href="code/cfa_one_output.txt" target="_blank" class="btn float-btn flat-btn color-btn mar-top" style="margin-left: 2rem;">View Output</a>
+                                    
+                                                                        <!-- accordion-->
+                                    <div class="accordion mar-top">
+                                        <a class="toggle act-accordion" href="#"> display.php<span></span></a>
+                                        <div class="accordion-inner visible">
+                                            <p>This PHP code fetches the live JSON API from CoinMarketCap and allows me to extract data from it for calculations and balances, etc.</p><img src="../images/bearcoin/display.png" width="100%;">
+                                        </div>
+                                        <a class="toggle" href="#"> Bitcoin.php <span></span></a>
+                                        <div class="accordion-inner">
+                                            <p>This PHP code is responsible for communicating between a MySQL server (storage for user accounts, password, balances, etc.) and the API, as well as generating the HTML code needed to display data to the user.</p>
+                                            <img src="../images/bearcoin/bitcoin.png" width="100%;">
+                                        </div>
+                                        <a class="toggle" href="#"> User_index.php <span></span></a>
+                                        <div class="accordion-inner">
+                                            <p>This PHP code checks that a user is signed in and, if there is an account signed in, communicates with the MySQL server to access information about the account to be displayed on the dashboard. The API is also an integral part of this algorithm.</p>
+                                            <img src="../images/bearcoin/user_index.png" width="100%;">
+                                        </div>
+                                    </div>
+                                    <!-- accordion end -->
+                            
+                                    <img src="../images/bearcoin/screenshots/user_page.png" width="90%;" style="margin-top: 5rem;">
+                                    
                                 </div>
 
                             </div>
