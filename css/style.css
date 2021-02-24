@@ -245,7 +245,7 @@ blockquote p {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #000;
+	background: #fff;
 	opacity: 0.05;
 	z-index: 3;
 }
